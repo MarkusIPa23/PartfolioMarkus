@@ -7,7 +7,7 @@ $name = "Markus Mareks Spulis";
 $profession = "Programmēšanas students";
 $about = "-";
 
-$email = "markusspulis@gmail.com";
+$email = "ipa23.m.spulis@vtdt.edu.lv";
 $github = "https://github.com/MarkusIPa23";
 
 // ==========================================
@@ -16,20 +16,20 @@ $github = "https://github.com/MarkusIPa23";
 
 $projects = [
     [
-        "title" => "",
-        "description" => "",
-        "technologies" => "",
-        "image" => "",
-        "github" => "",
-        "demo" => ""
+        "title" => "Mini_Games",
+        "description" => "Šīs ir mazs projekts kuru es ar savu kursa biedru biju izdarijis",
+        "technologies" => "PHP, Css, SQL",
+        "image" => "images\Ekrānuzņēmums 2026-09-03 105106.png",
+        "github" => "https://github.com/MarkusIPa23/Mini_Games",
+        "demo" => "Pašlaik nav"
     ],
     [
-        "title" => "",
-        "description" => "",
-        "technologies" => "",
-        "image" => "",
+        "title" => "IT-HELP-Desk",
+        "description" => "Saite līdzīga eklasei",
+        "technologies" => "PHP, Css, SQL, Laravel",
+        "image" => "images\Ekrānuzņēmums 2026-09-03 110745.png",
         "github" => "",
-        "demo" => ""
+        "demo" => "Pašlaik nav"
     ]
 ];
 
