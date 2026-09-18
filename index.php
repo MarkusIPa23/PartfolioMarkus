@@ -21,7 +21,6 @@ $projects = [
         "technologies" => "PHP, Css, SQL",
         "image" => "images\Ekrānuzņēmums 2026-09-03 105106.png",
         "github" => "https://github.com/MarkusIPa23/Mini_Games",
-        "demo" => "Pašlaik nav"
     ],
     [
         "title" => "IT-HELP-Desk",
@@ -29,7 +28,6 @@ $projects = [
         "technologies" => "PHP, Css, SQL, Laravel",
         "image" => "images\Ekrānuzņēmums 2026-09-03 110745.png",
         "github" => "",
-        "demo" => "Pašlaik nav"
     ]
 ];
 
@@ -303,15 +301,6 @@ $projects = [
                                     GitHub
                                 </a>
 
-
-                                <a
-                                    href="<?php echo $project['demo']; ?>"
-                                    target="_blank"
-                                    class="button secondary"
-                                >
-                                    Live Demo
-                                </a>
-
                             </div>
 
                         </div>
@@ -346,7 +335,8 @@ $projects = [
             <div class="contact-buttons">
 
                 <a
-                    href="mailto:<?php echo $email; ?>"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=<?php echo urlencode($email); ?>&su=<?php echo urlencode('Labdien, es gribu sazināties ar Tevi'); ?>&body=<?php echo urlencode("Sveiki,\n\nEsmu iepazinies ar Tevi caur Tavu portfēliju un gribu ar Tevi sazināties.\n\nPaldies atbildēt uz mani.\n"); ?>"
+                    target="_blank"
                     class="button"
                 >
                     📧 E-pasts
